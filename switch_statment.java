@@ -1,6 +1,7 @@
 public class switch_statment {
     public static void main(String [] args){
-        int n = 2 ;
+        int n = 3 ;
+        String res = "";
 
         switch(n){
 
@@ -21,13 +22,13 @@ public class switch_statment {
 
             //======New switch statement======
 
+
+
             case 1 -> System.out.println("Sunday");
             case 2 -> System.out.println("Monday");
-            case 3 -> System.out.println("Tuesday");
+            case 3 -> res = "Tuesday";
             default -> System.out.println("Invalid");
-
-
-
         }
+        System.out.println(res);
     }
 }
