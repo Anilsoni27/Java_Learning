@@ -24,7 +24,7 @@ public class switch_statment {
 
 
 
-            case 1 -> System.out.println("Sunday");
+            case 1 -> System.out.println("Sunday"); // -> or : yield "Sunday";
             case 2 -> System.out.println("Monday");
             case 3 -> res = "Tuesday";
             default -> System.out.println("Invalid");
