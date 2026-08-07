@@ -1,14 +1,15 @@
 public class if_else {
     public static void main(String [] args){
-        int x = 5;
+        int x = 8;
         int y = 7;
+        int z = 6;
 
-        if(x > y){
-            System.out.println(x);
+        // if(x > y){
+        //     System.out.println(x);
 
-        }
-        else
-            System.out.println(y);
+        // }
+        // else
+        //     System.out.println(y);
 
         // if(x > 10 && x <= 20){
         //     System.out.println("Hello");
@@ -16,6 +17,15 @@ public class if_else {
         // else
         //  System.out.println("Bye");
 
+        if(x > y && x > z){
+            System.out.println(x);
+        }
+        else if(y > x && y > z){
+            System.out.println(y);
+        }
+        else
+            System.out.println(z);
+        
     }
     
 }
