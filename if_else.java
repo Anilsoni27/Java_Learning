@@ -5,12 +5,12 @@ public class if_else {
         int z = 6;
         
 
-        if(x > y){
-            System.out.println(x);
+        // if(x > y){
+        //     System.out.println(x);
 
-        }
-        else
-            System.out.println(y);
+        // }
+        // else
+        //     System.out.println(y);
 
         if(x > 10 && x <= 20){
             System.out.println("Hello");
