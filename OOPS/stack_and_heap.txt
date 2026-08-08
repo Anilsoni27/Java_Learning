@@ -1,0 +1,17 @@
+-> Stack follows first in last out.
+
+-> Every method  will have their own stack.
+
+-> Inside the method the variable are local variable and in class variable is instance.
+
+-> Obj is the refernce variable.
+
+-> Obj created into the heap memory . In the obj there will be two section.
+
+-> The first section will have all the instance variable not the local variable. Local variable are part of the stack.
+
+-> Heap mem will also have the method declaration only otherwise it will use stack.
+
+-> In heap the obj have own address and it will store into stack (into main stacks which have obj  refernce variable).
+
+-> So There will be link b/w stack and heap b/c of address.
