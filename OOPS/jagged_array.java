@@ -1,3 +1,6 @@
+
+//Array in java is an object , it will created in heap memory
+
 public class jagged_array {
     public static void main(String[] args) {
         int num [][] = new int [3][];
