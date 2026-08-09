@@ -27,9 +27,18 @@ public class array_of_object {
         students[1] = s2;
         students[2] = s3;
 
-        for(int i = 0 ; i < students.length; i++){
-            System.out.println(students[i].name+":"+ students[i].roll_no +":"+ students[i].marks);
-        }
+        // for(int i = 0 ; i < students.length; i++){
+        //     System.out.println(students[i].name+":"+ students[i].roll_no +":"+ students[i].marks);
+        // }
+
+     //=======  Enhanced Loop (For each Loop) ========
+
+     for(Student stud : students ){
+        Systems.out.println(stud[i].name+":"+ stud[i].roll_no +":"+ stud[i].marks);
+     }
+
+
+      
     }
     
 }
