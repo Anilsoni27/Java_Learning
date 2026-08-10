@@ -1,3 +1,6 @@
+
+//Java does not support multiple inheritence dur to ambguity problem but it support multilevel inheritence
+
 class Calc{
 
     public int add(int a , int b){
