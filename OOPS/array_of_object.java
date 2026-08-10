@@ -34,7 +34,8 @@ public class array_of_object {
      //=======  Enhanced Loop (For each Loop) ========
 
      for(Student stud : students ){
-        Systems.out.println(stud[i].name+":"+ stud[i].roll_no +":"+ stud[i].marks);
+        int i ;
+        System.out.println(stud.name +":"+ stud.roll_no +":"+ stud.marks);
      }
 
 
