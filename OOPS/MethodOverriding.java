@@ -14,10 +14,7 @@ class AdvaCalc extends Calc {
         return a + b + 1;
     }
 
-    public char[] mul(int i, int j) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'mul'");
-    }
+
 }
 public class MethodOverriding {
     public static void main(String [] args){
