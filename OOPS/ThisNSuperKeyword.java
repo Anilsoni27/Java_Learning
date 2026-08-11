@@ -19,7 +19,7 @@ class B extends A{
         System.out.println("in int B");
     } 
 }
-public class ThisSuperKeyword {
+public class ThisNSuperKeyword {
     public static void main(String[] args) {
         B obj = new B(2);
 
