@@ -13,7 +13,7 @@ public class ThrowKeyword {
         }
         catch(ArithmeticException e){
             j = 18 / 1;
-            
+
             System.out.println("Thats default output: "+ e );
         }
         System.out.println(j);
