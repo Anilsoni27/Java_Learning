@@ -1,4 +1,4 @@
-// Exception is super class so always palce this at the last in catch block
+
 
 // Object (extends->) Throwable -> Exception And Error
 // Error cannot be handlded

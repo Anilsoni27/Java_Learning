@@ -1,3 +1,4 @@
+
 // For custom exception make a class which extends Exception class and if we wnat to give any parameter in constructor so we have to call super
 class MyException extends Exception{
     public MyException(String str){
