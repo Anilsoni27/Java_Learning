@@ -1,4 +1,4 @@
-class A {
+public class A {
     
     public A (){
         System.out.println("Object created...");
