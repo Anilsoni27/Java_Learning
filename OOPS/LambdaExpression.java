@@ -17,6 +17,6 @@ public class LambdaExpression {
 
         A obj2 = (a,b) ->  a + b;
         int r = obj2.add(3, 4);
-        System.out.println("Addition =" + r);
+        System.out.println("Addition =clear" + r);
     }
 }
