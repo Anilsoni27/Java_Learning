@@ -14,13 +14,13 @@ public class Arraylist {
 
         System.out.println(nums.get(2));
         System.out.println(nums.indexOf(7));
-        for(Object n : nums){
-            int num = (Integer)n;
-            System.out.println(num);
-        }
+        // for(Object n : nums){
+        //     int num = (Integer)n;
+        //     System.out.println(num);
+        // }
 
         System.out.println(nums);
-
+        
         
     }
     
