@@ -1,7 +1,10 @@
+// thread state are -> new state ->(start) runnable state(waiting for scheduler) -> waiting state(with help os sleep and wait) ->running state(help of run method) -> dead state
+// runnable to dead with the help of stop
+
 class Counter {
     int count;
 
-    public synchronized void increament(){ // synchronized allows to use method one at a time
+    public synchronized void increament(){ // synchronized allows to use methodone at a time
         
         count++;
     }
